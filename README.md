@@ -26,10 +26,16 @@ choco install ffmpeg
 python -m venv venv
 ```
 
+- ative o ambiente virtual:
+
+```ps1
+.\venv\Scripts\activate
+```
+
 - instale as depedencias do codigo:
 
 ```ps1
-pip install requiriments.txt
+pip install -r requirements.txt
 ```
 
 agora execute o codigo =)
